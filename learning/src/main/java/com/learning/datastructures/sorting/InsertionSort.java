@@ -2,6 +2,12 @@ package com.learning.datastructures.sorting;
 
 import java.util.Arrays;
 
+/*
+    1. loop through the array.
+    2. check the previous elements .
+    3. if previous elements is less than the current element change the positions until it fits the position
+    4. continue step3 until entire array is sorted
+ */
 public class InsertionSort {
 
     public static void main(String[] args) {

@@ -2,6 +2,12 @@ package com.learning.datastructures.sorting;
 
 import java.util.Arrays;
 
+/*
+1. loop through the array
+2. get the minimum element from the array.
+3. if minimum element is less than the current element then swap the position of the elements
+4. repeat until the array is sorted.
+ */
 public class SelectionSort {
 
     public static void main(String[] args) {

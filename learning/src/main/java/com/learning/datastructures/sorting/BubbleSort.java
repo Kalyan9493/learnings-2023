@@ -2,6 +2,14 @@ package com.learning.datastructures.sorting;
 
 import java.util.Arrays;
 
+/* STEPS :
+
+1. loop through each element
+2. compare each and every element
+3. if element in first loop is less than element in second loop then swap the positions.
+4. continue step3 until entire array is sorted.
+ */
+
 public class BubbleSort {
 
     public static void main(String[] args) {
